@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.board {
+  height: 31rem;
+  width: 31rem;
+  margin: auto;
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 10rem;
+  width: 10rem;
+  border: 2px dashed pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square p {
+  font-size: 5rem;
+}
+
+.square:hover {
+  background-color: palevioletred;
+}
